@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">InterfazControles</string>
+
+    <string-array name="tipos_tarjeta">
+        <item>Visa</item>
+        <item>Master Card</item>
+        <item>American Express</item>
+        <item>Discover</item>
+    </string-array>
 </resources>
