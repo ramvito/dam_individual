@@ -1,0 +1,42 @@
+body {
+    background-color: white;
+}
+
+div {
+	height: 100%;
+	width: 100%;
+	justify-content: center;
+
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hm {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+@media (max-width: 1024px) and (orientation: landscape){
+    body {
+        background-color: black;
+        color: white;
+    }
+    p:after{
+    	content: " grande";
+    }
+}
+
+@media (max-width: 1024px) and (orientation: portrait){
+    body {
+        background-color: orange;
+        color: blue;
+    }
+    p:after{
+    	content: " pequeno";
+    }
+}
